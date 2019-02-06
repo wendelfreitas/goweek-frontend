@@ -18,6 +18,7 @@ export default class Timeline extends Component {
     this.setState({ tweets: response.data });
   }
 
+  // Change to React Hooks 
   handleInputChange = e => {
     this.setState({ newTweet: e.target.value });
   };
